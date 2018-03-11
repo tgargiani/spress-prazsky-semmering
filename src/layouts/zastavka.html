@@ -21,6 +21,15 @@ layout: default
 
 <div style="clear: both"></div>
 
+
 {{ page.content }}
+
+<div id="mapa" style="width:600px; height:400px;"></div>
+<script type="text/javascript">
+		var stred = SMap.Coords.fromWGS84({{ page.details.eastcoordinate }}, {{ page.details.northcoordinate }});
+		var mapa = new SMap(JAK.gel("mapa"), stred, 17);
+		mapa.addDefaultLayer(SMap.DEF_BASE).enable();
+		mapa.addDefaultControls();	      	      
+</script>
 
 {% endblock %}

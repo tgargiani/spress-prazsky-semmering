@@ -8,6 +8,8 @@ details:
   picture: zvahov.jpg
   picture_cc: 'Honza Groh, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>'
   picture_url: "https://commons.wikimedia.org/wiki/File:Praha-%C5%BDvahov,_p%C5%99%C3%ADst%C5%99e%C5%A1ek.jpg"
+  northcoordinate: 50.0456628
+  eastcoordinate: 14.4023656
 ---
 
 > Praha-Žvahov je železniční zastávka na železniční trati Praha-Smíchov – Hostivice – Rudná u Prahy.
